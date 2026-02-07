@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Compliance Payment Status</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+    body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: radial-gradient(circle at top, #1b1f2a, #0b0f17);
+        color: #e6e6e6;
+    }
+
+    .container {
+        max-width: 420px;
+        margin: auto;
+        padding: 40px 20px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-bottom: 6px;
+        font-weight: 600;
+    }
+
+    .demo-tag {
+        font-size: 11px;
+        color: #ffcc66;
+        opacity: 0.8;
+        margin-bottom: 18px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 1.6;
+        color: #cfd3dc;
+    }
+
+    .box {
+        background: rgba(255,255,255,0.04);
+        border-radius: 14px;
+        padding: 18px;
+        margin-top: 18px;
+    }
+
+    .success {
+        color: #7CFF9B;
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+    .payment {
+        margin-top: 14px;
+        padding-top: 14px;
+        border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .label {
+        font-size: 12px;
+        color: #9aa0ad;
+        margin-bottom: 2px;
+    }
+
+    .value {
+        font-size: 15px;
+        font-weight: 500;
+        color: #ffffff;
+    }
+
+    .amount {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 4px;
+    }
+
+    .note {
+        font-size: 12px;
+        color: #9aa0ad;
+        margin-top: 18px;
+        line-height: 1.5;
+    }
+
+    .badge {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 6px 10px;
+        border-radius: 8px;
+        background: rgba(124, 255, 155, 0.15);
+        color: #7CFF9B;
+        font-size: 12px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Compliance Payment Status</h1>
+    <div class="star">Binance Environment · Placeholder Data</div>
+
+    <p>
+        The following compliance-related payments have been recorded under a
+        temporary stipulated hold resolution process. This view reflects a
+        real time binance environment only.
+    </p>
+
+    <div class="box">
+        <div class="success">Payment Status: Completed</div>
+        <div class="badge">Verification Processing</div>
+
+        <!-- PAYMENT 1 -->
+        <div class="payment">
+            <div class="label">Compliance Payment Amount</div>
+            <div class="amount">690 USDT</div>
+
+            <div class="label" style="margin-top:8px;">Universal ID</div>
+            <div class="value">UID-1145524815</div>
+        </div>
+
+        <!-- PAYMENT 2 -->
+        <div class="payment">
+            <div class="label">Additional Compliance Payment</div>
+            <div class="amount">90 USDT</div>
+
+            <div class="label" style="margin-top:8px;">Universal ID</div>
+            <div class="value">UID-1128577516</div>
+        </div>
+    </div>
+
+    <p class="note">
+        Following confirmation of all required compliance payments, the account
+        enters a review and clearance window. Processing timelines shown in this
+        demo are indicative only and do not represent real transactions.
+    </p>
+
+    <p class="note">
+        This interface is intended for demonstration, UI preview, or testing
+        purposes and does not confirm actual asset movement or regulatory action.
+    </p>
+</div>
+
+</body>
+</html>
